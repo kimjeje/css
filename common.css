@@ -1,1 +1,154 @@
+:root {
+  --color-0: #ffffff; /* test color */
+  --color-bg: transparent;
+}
 
+* {
+	/* font-family: "Jeju Gothic","Helvetica Neue",Helvetica,Arial,sans-serif; */
+}
+
+/* 배경색 */
+html, body {
+	height: auto;
+	background: var(--color-bg);
+}
+
+/* Top 버튼 이미지 변경 */
+/*
+#movetotop > img {
+	display: none;
+}
+#movetotop {
+	display: inline-block;
+	background-image: url(./images/to-up-button.gif);
+	background-size: contain;
+	width: 72px;
+	height: 72px;
+}
+*/
+/* 글작성 툴바 테두리 색 */
+/*
+.fr-toolbar {
+	border-top-color: var(--color-pink-0);
+}
+*/
+/* 버튼색 */
+/*
+.btn-primary {
+	background-color: var(--color-pink-2);
+	border-color: var(--color-pink-2);
+	color: var(--color-active);
+}
+.btn-primary:hover {
+	background-color: var(--color-pink-0);
+	border-color: transparent;
+}
+*/
+/* 접속자 수 */
+#board-info #viewers-area {
+	font-size: 12px;
+}
+#viewers:before {
+	/* content: '지금! 토깽단 '; */
+}
+#viewers:after {
+	/* content: '명이 작당모의 중입니다...!'; */
+}
+
+/* 게시판 소메뉴 배경색 제거, 하단 보더 추가 */
+/*
+#article-list #article-list-category {
+	background: var(--color-category-bg);
+	border-bottom: 2px solid var(--color-pink-1);
+}
+#article-list #article-list-category > a {
+	background: var(--color-category-bg);
+	line-height: 15px;
+}
+#article-list #article-list-category > a.active, #article-list #article-list-category > a:hover {
+	background: var(--color-pink-3);
+}
+#article-list-category i.fa-home {
+	color: var(--color-pink-0);
+}
+*/
+/* 페이지네이션 버튼 */
+/*
+.pagination > li > a {
+	border-radius: 34px;
+	border: none;
+}
+.pagination > li > a, .pagination > li > span {
+	color: var(--color-pink-0);
+}
+*/
+/* 선택된버튼 focus, hover */
+/*
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+	background-color: var(--color-pink-0);
+}
+*/
+/* 일반버튼 hover */
+/*
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+	background-color: var(--color-pink-2);
+	color: var(--color-active);
+}
+*/
+/* 좌우버튼 radius */
+/*
+.pagination > li:first-child > a,
+.pagination > li:first-child > span,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+	border-radius: 34px;
+}
+*/
+
+/* 하트 아이콘 애니메이션 효과 */
+@keyframes beat {
+	from {
+		transform: scale(1.2);
+	}
+	to {
+		transform scale(1.0);
+	}
+}
+@-moz-keyframes beat {
+	from {
+		transform: scale(1.2);
+	}
+	to {
+		transform scale(1.0);
+	}
+}
+@-webkit-keyframes beat {
+	from {
+		transform: scale(1.2);
+	}
+	to {
+		transform scale(1.0);
+	}
+}
+@-ms-keyframes beat {
+	from {
+		transform: scale(1.2);
+	}
+	to {
+		transform scale(1.0);
+	}
+}
+.fa.fa-heart {
+	-webkit-animation: beat 1s ease-in 6s infinite;
+	-moz-animation: beat 1s ease-in 6s infinite;
+	-ms-animation: beat 1s ease-in 6s infinite;
+	animation: beat 1s ease-in 6s infinite;
+}
