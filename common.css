@@ -31,6 +31,7 @@ html, body {
 }
 */
 /* 글작성 툴바 테두리 색 */
+/*
 .fr-toolbar {
 	border-top-color: var(--color-0);
 }
@@ -45,7 +46,7 @@ html, body {
 	background-color: var(--color-0);
 	border-color: transparent;
 }
-
+*/
 /* 접속자 수 */
 #board-info #viewers-area {
 	font-size: 12px;
@@ -67,6 +68,7 @@ html, body {
 }
 
 /* 선택된버튼 focus, hover */
+/*
 .pagination > .active > a,
 .pagination > .active > a:focus,
 .pagination > .active > a:hover,
@@ -75,8 +77,9 @@ html, body {
 .pagination > .active > span:hover {
 	background-color: var(--color-0);
 }
-
+*/
 /* 일반버튼 hover */
+/*
 .pagination > li > a:focus,
 .pagination > li > a:hover,
 .pagination > li > span:focus,
@@ -84,15 +87,16 @@ html, body {
 	background-color: var(--color-2);
 	color: var(--color-active);
 }
-
+*/
 /* 좌우버튼 radius */
+/*
 .pagination > li:first-child > a,
 .pagination > li:first-child > span,
 .pagination > li:last-child > a,
 .pagination > li:last-child > span {
 	border-radius: 34px;
 }
-
+*/
 /* 하트 아이콘 애니메이션 효과 */
 @keyframes beat {
 	from {
