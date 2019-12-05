@@ -1,6 +1,10 @@
 :root {
-  --color-0: #ffffff; /* test color */
-  --color-bg: #e6e6f7;
+	--color-active: #0022f1;
+	--color-0: #1246da;
+	--color-1: #3f71ff;
+	--color-2: #7d9ffd;
+	--color-3: #b5c9ff;
+	--color-bg: #e6e6f7;
 }
 
 * {
@@ -27,23 +31,21 @@ html, body {
 }
 */
 /* 글작성 툴바 테두리 색 */
-/*
 .fr-toolbar {
-	border-top-color: var(--color-pink-0);
+	border-top-color: var(--color-0);
 }
-*/
+
 /* 버튼색 */
-/*
 .btn-primary {
-	background-color: var(--color-pink-2);
-	border-color: var(--color-pink-2);
+	background-color: var(--color-2);
+	border-color: var(--color-2);
 	color: var(--color-active);
 }
 .btn-primary:hover {
-	background-color: var(--color-pink-0);
+	background-color: var(--color-0);
 	border-color: transparent;
 }
-*/
+
 /* 접속자 수 */
 #board-info #viewers-area {
 	font-size: 12px;
@@ -55,63 +57,41 @@ html, body {
 	/* content: '명이 작당모의 중입니다...!'; */
 }
 
-/* 게시판 소메뉴 배경색 제거, 하단 보더 추가 */
-/*
-#article-list #article-list-category {
-	background: var(--color-category-bg);
-	border-bottom: 2px solid var(--color-pink-1);
-}
-#article-list #article-list-category > a {
-	background: var(--color-category-bg);
-	line-height: 15px;
-}
-#article-list #article-list-category > a.active, #article-list #article-list-category > a:hover {
-	background: var(--color-pink-3);
-}
-#article-list-category i.fa-home {
-	color: var(--color-pink-0);
-}
-*/
 /* 페이지네이션 버튼 */
-/*
 .pagination > li > a {
 	border-radius: 34px;
 	border: none;
 }
 .pagination > li > a, .pagination > li > span {
-	color: var(--color-pink-0);
+	color: var(--color-0);
 }
-*/
+
 /* 선택된버튼 focus, hover */
-/*
 .pagination > .active > a,
 .pagination > .active > a:focus,
 .pagination > .active > a:hover,
 .pagination > .active > span,
 .pagination > .active > span:focus,
 .pagination > .active > span:hover {
-	background-color: var(--color-pink-0);
+	background-color: var(--color-0);
 }
-*/
+
 /* 일반버튼 hover */
-/*
 .pagination > li > a:focus,
 .pagination > li > a:hover,
 .pagination > li > span:focus,
 .pagination > li > span:hover {
-	background-color: var(--color-pink-2);
+	background-color: var(--color-2);
 	color: var(--color-active);
 }
-*/
+
 /* 좌우버튼 radius */
-/*
 .pagination > li:first-child > a,
 .pagination > li:first-child > span,
 .pagination > li:last-child > a,
 .pagination > li:last-child > span {
 	border-radius: 34px;
 }
-*/
 
 /* 하트 아이콘 애니메이션 효과 */
 @keyframes beat {
