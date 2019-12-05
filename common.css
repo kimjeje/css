@@ -1,5 +1,5 @@
 :root {
-	--color-active: #0022f1;
+	--color-active: #dddddd;
 	--color-0: #1246da;
 	--color-1: #3f71ff;
 	--color-2: #7d9ffd;
@@ -39,7 +39,7 @@ html, body {
 .btn-primary {
 	background-color: var(--color-2);
 	border-color: var(--color-2);
-	color: #333333;
+	color: var(--color-active);
 }
 .btn-primary:hover {
 	background-color: var(--color-0);
