@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 :root {
 	--color-active: #dddddd;
 	--color-0: #1246da;
@@ -5,10 +7,19 @@
 	--color-2: #7d9ffd;
 	--color-3: #b5c9ff;
 	--color-bg: #e6e6f7;
+
+	--color-b1: #678ab6;
+	--color-r1: #f21939;
+	--color-p1: #7118ff;
+	--color-bg1: #1a1b37;
+	--color-bg2: #1c1e39;
+	--color-bg3: #32446a;
+	--color-bg4: #496ca1;
+	--color-bg5: #f6fafe;
 }
 
 * {
-	/* font-family: "Jeju Gothic","Helvetica Neue",Helvetica,Arial,sans-serif; */
+	font-family: "Noto Sans KR","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 /* 배경색 */
