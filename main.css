@@ -2,9 +2,9 @@
 
 /* 배경 그라데이션 */
 html {
-	background: linear-gradient(180deg, var(--color-bg4) 0%, var(--color-bg3) 45%, var(--color-bg1) 90%);
+	/* background: linear-gradient(180deg, var(--color-bg4) 0%, var(--color-bg3) 45%, var(--color-bg1) 90%); */
 	height: auto;
 }
 body {
-	background-color: transparent;
+	/* background-color: transparent; */
 }
