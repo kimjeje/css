@@ -8,3 +8,16 @@ html {
 body {
 	/* background-color: transparent; */
 }
+
+/* 메인 로고 */
+header .row > div:first-child > a {
+	display: block;
+	width: 138px;
+	height: 50px;
+	background-image: url(./images/logo.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+header .row > div:first-child > a > img {
+	display: none;
+}
