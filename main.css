@@ -26,10 +26,10 @@ header .row > div:first-child > a > img {
 /* 사용자 설정 부분 */
 :root {
 	--bgColor: #e4eaf9;   /* 배경 색 */
-	--mainColor: #1246da;   /* 메인 컬러 */
-	--mainColor5: #1246da55; /* 공지, 인기글 hover */
-	--mainColor3: #1246da33; /* 공지, 인기글 */
-	--mainColor2: #1246da22; /* 트게더 메뉴, 게시글 hover */
+	--mainColor: #6889e6;   /* 메인 컬러 */
+	--mainColor5: #6889e655; /* 공지, 인기글 hover */
+	--mainColor3: #6889e633; /* 공지, 인기글 */
+	--mainColor2: #6889e622; /* 트게더 메뉴, 게시글 hover */
 	--logoURL: url(./images/logo.png);
 	--logoWidth: 200px;	 /* 로고 너비 */
 	--before: ""; /* 접속자 수 앞 문구 */
